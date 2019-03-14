@@ -52,7 +52,7 @@ describe("<Controls/>", () => {
     const { getByText } = render(
       <Controls
         locked={false}
-        closed={true}
+        closed={false}
         toggleLocked={mock}
         toggleClosed={mock}
       />
